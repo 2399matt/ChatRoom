@@ -4,15 +4,15 @@
 
 ## Overview
 
--Basic authentication with Spring Security for users(additional checks on username and password matching)
+- Basic authentication with Spring Security for users(additional checks on username and password matching)
 
--Websocket with SockJS / Spring config
+- Websocket with SockJS / Spring config
 
--Persistent chat history between users, loaded upon opening a chatroom
+- Persistent chat history between users, loaded upon opening a chatroom
 
--Basic JavaScript usage to fetch server-rendered fragments, initiate the WS, and append messages.
+- Basic JavaScript usage to fetch server-rendered fragments, initiate the WS, and append messages.
 
--Users can initiate a chat by clicking on the button of an online user, online users are kept track of with a concurrent HashMap, and event listeners
+- Users can initiate a chat by clicking on the button of an online user, online users are kept track of with a concurrent HashMap, and event listeners
 
 ---
 
