@@ -1,0 +1,5 @@
+<ul th:fragment="userListFrag" class="list-group" id="userList">
+         <li th:each="username : ${users}">
+             <button class="user-button" th:text="${username}" th:value="${username}" th:id="${username}"></button>
+         </li>
+</ul>
